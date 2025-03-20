@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PRACTICAL EXAM PORTFOLIO</title>
+    <style> 
+     @keyframes glowing-border {
+            0% { box-shadow: 0 0 30px 	#e0be99; border-color: 	#e0be99; }
+            50% { box-shadow: 0 0 20px 	#424c51; border-color: 	#424c51; }
+            100% { box-shadow: 0 0 30px 	#e0be99; border-color: 	#e0be99; }
+        }
+    
+        .social-container {
+            display: flex;
+            gap: 20px;
+        }
+        .social-logo {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+        .social-logo svg {
+            width: 30px;
+            height: 30px;
+            fill: white;
+        }
+        .facebook { background-color: #1877F2; }
+ 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: 	#b7825f;
+        }
+
+        header {
+          outline:1.5px solid gray;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #c0a891;
+            padding: 20px;
+            color: black;
+        }  
+
+        header h1 {
+            color: black;
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        section {
+             display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            margin: 40px;
+            background-color: 	#c0a891;
+            border-radius: 8px;
+            box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+             animation: glowing-border 4s infinite alternate;
+        }
+     
+
+          .profile-img {
+            width: 290px;
+            height: 290px;
+            margin:40px;
+            border-radius: 40px;
+            margin-right: 50px;
+        }
+
+      
+
+        h1, h2, h3 {
+            margin:25px;
+            color: black;
+        }
+
+        ul {
+
+            padding: 20px;
+        }
+
+        li {
+            padding: 5px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        b {
+         font-size: 29px;
+            font-weight: bold;
+            background: linear-gradient( to right, 		#6f4e37, #b7825f , #6f4e37 , #b7825f , #774e32 );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        footer {
+            text-align: center;
+            padding: 5px;
+            background-color: black;
+            color: silver;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+           p {
+            font-size: 19px;
+            margin:15px;
+            max-width: 500px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+
+    <header>
+        <h1> </h1>
+        <p1>Welcome here to my website!</p1>
+    </header>
+    <br>
+ 
+<br>
+  <section>
+        <div>
+            <h1>About Me</h1>
+            <p><b>Hi!</b> I'm <b>Ellysa S. Quiñones </b>,<br> Well i enjoying doing adventure to learn a lot on technology, knowing that i need to improve my skills as what i choose to be and specially accepting changes that i need to make and do this kind of things for my improvement
+.</p>
+        </div>
+        <img id="profileImg" 
+             src="https://scontent.fmnl33-6.fna.fbcdn.net/v/t39.30808-6/480691329_613432661291359_1661258620306776582_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFL-fEPEZXtLWE-FcY96fX6FjfM-xbK42AWN8z7FsrjYDLRAEm0CtD63U4ORaqHwqlAyh5rSXLf76nc-33hAEpN&_nc_ohc=wtwhzOOHa6sQ7kNvgGFU4VW&_nc_oc=AdkgFhlwhOnvOIxJT6PMuUUu9TgDhdmqzDc0nguTusdGTLIu8blKzoRrFE8LigZqF_4&_nc_zt=23&_nc_ht=scontent.fmnl33-6.fna&_nc_gid=3kA5JgqcANs5Nh6hDx895Q&oh=00_AYGyk0n3u9mJVV7Xk6kaDpB_U-oSS41t_lBsE0BiYwB7qg&oe=67E23558" 
+             alt="baka Image to" 
+             class="profile-img"
+          >
+    </section>
+
+
+  
+
+    <section >
+        <h2>Projects</h2>
+        <ul>
+            <li>
+            
+                <p><a href="https://63ixrg.mimo.run/index.html"> <h3>Project 1</h3></a> 
+                </p>
+            </li>
+            <li>
+                <p><a href="https://aj5fom.mimo.run/index.html"><h3>Project 2:</h3></a> </p>
+            </li>
+         
+        </ul>
+    </section>
+
+    <section >
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:quinonesellysa380@gmail.com">quinonesellysa380@gmail.com</a></p>
+
+        <p>Connect with me on:
+         
+         <div class="social-container">
+        <a href="https://www.facebook.com/profile.php?id=100078738901154" class="social-logo facebook" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M22.675 0h-21.35C.597 0 0 .597 0 1.325v21.351C0 23.403.597 24 1.325 24h11.483V14.706H9.69v-3.622h3.118V8.412c0-3.1 1.893-4.793 4.66-4.793 1.325 0 2.463.099 2.796.143v3.24l-1.92.001c-1.504 0-1.793.714-1.793 1.762v2.31h3.586l-.467 3.622h-3.12V24h6.117C23.403 24 24 23.403 24 22.676V1.325C24 .597 23.403 0 22.675 0z"/>
+            </svg>
+        </a>    
+    </div> 
+        </p>
+    
+    </section>
+    
+</body>
+</html>
